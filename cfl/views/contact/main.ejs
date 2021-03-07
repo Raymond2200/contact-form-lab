@@ -1,0 +1,20 @@
+<%- include("../partials/head.ejs") %>
+</head>
+<body>
+    <div>
+        <h1>Contact Us</h1>
+        <p>Please complete the below form</p>
+    </div>
+    <form action="/contact" method="POST" autocomplete="off">
+        <h3>Full Name</h3>
+        <input type="text" name="name">
+        <br>
+        <h3>E-mail</h3>
+        <input name="email">
+        <br>
+        <h3>Message</h3>
+        <input name="message">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
